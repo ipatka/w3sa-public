@@ -7,5 +7,6 @@ out/
 
 # Dotenv file
 .env
+.envrc
 
 node_modules/
