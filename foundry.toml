@@ -3,6 +3,7 @@ src = 'src'
 script = 'script'
 out = 'out'
 libs = ['lib']
+auto_detect_solc = true
 
 [etherscan]
 mainnet = { key = "${ETHERSCAN_API_KEY}" }
