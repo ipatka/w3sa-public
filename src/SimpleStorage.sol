@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.4.24;
+pragma solidity ^0.8.15;
 
 contract SimpleStorage {
     uint storedData;
@@ -8,7 +8,7 @@ contract SimpleStorage {
         storedData = x;
     }
 
-    function get() public constant returns (uint) {
+    function get() public returns (uint) {
         return storedData;
     }
 }
